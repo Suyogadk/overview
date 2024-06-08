@@ -58,6 +58,7 @@ p.sec{
     font-weight: bold;
 }
 h2{
+    font-size: 22px;
 margin-top: 5%;
 text-size-adjust: 24px;
 color:  #0a1535;
@@ -75,6 +76,7 @@ img.sec{
     border: 2px solid #000000;
 }
 p.thi {
+    
     z-index: 3;
     width: 530px;
     position: relative;
@@ -165,6 +167,7 @@ p.last{
 {
     p.st
     {
+        margin-bottom: 10%;
         font-size: 16px;
         width: 420px;
     }
@@ -183,6 +186,7 @@ p.last{
        
     }
     .two{
+        margin-top: 15% ;
         margin-left: 50%;
     }
     img.main,
@@ -198,3 +202,149 @@ p.last{
 }
 
 
+
+@media screen and (max-width:425px)
+{
+    p.st,
+    p.sec,
+    p.thi
+    {
+        
+        font-size: 16px;
+        width: 400px;
+    }
+
+    p.st,
+    p.thi
+    {
+    margin-top: 20%;
+    }
+        img.main,
+        img.thi{
+        margin-left: 25%;
+        }
+
+        h2{
+            margin: 10%;
+        }
+        img.sec{
+            margin-left: 20%;
+        }
+        p.sec{
+            margin-left: -29%;
+            margin-top: 10%;
+        }
+        img.thi{
+            margin-top: 14%;
+            margin-left: 20.5%;
+        }
+        p.thi{
+            margin-top: 40%;
+            margin-left: -10%;
+            
+        }
+        p.last{
+            margin-left: -15%;
+            width: 420px;
+        }
+    }
+
+    @media screen and (max-width:320px)
+{
+    p.st,
+    p.sec,
+    p.thi
+    {
+        
+        font-size: 16px;
+        width: 300px;
+    }
+
+    p.st,
+    p.thi
+    {
+    margin-top: 20%;
+    }
+        img.main,
+        img.thi{
+        margin-left: 15%;
+        }
+
+        h2{
+            margin: 10%;
+        }
+        img.sec{
+            margin-left: 6%;
+        }
+        p.sec{
+            margin-left: -23%;
+            margin-top: 10%;
+        }
+        img.thi{
+            margin-top: 14%;
+            margin-left: 6%;
+        }
+        p.thi{
+            margin-top: 40%;
+            margin-left: -13%;
+            
+        }
+        p.last{
+            margin-left: -15%;
+            width: 320px;
+            font-size: 19px;
+        }
+    }
+    
+
+    @media screen and (max-width:375px)
+{
+    p.st,
+    p.sec,
+    p.thi
+    {
+        
+        font-size: 16px;
+        width: 350px;
+    }
+
+    p.st,
+    p.thi
+    {
+    margin-top: 20%;
+    }
+        img.main,
+        img.thi{
+        margin-left: 15%;
+        }
+
+        h2{
+            margin: 10%;
+        }
+        img.sec{
+            margin-left: 6%;
+        }
+        p.sec{
+            margin-left: -26%;
+            margin-top: 10%;
+        }
+        img.thi{
+            margin-top: 14%;
+            margin-left: 6%;
+        }
+        p.thi{
+            margin-top: 40%;
+            margin-left: -13%;
+            
+        }
+        p.last{
+            margin-left: -15%;
+            width: 320px;
+            font-size: 19px;
+        }
+        p.st,
+        p.sec,
+        p.thi{
+            padding-right: 2px;
+        }
+    }
