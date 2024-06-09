@@ -108,6 +108,40 @@ img.thi{
 }
 
 
+@media screen and (max-width:1024px)
+{
+    p.st,
+    p.thi
+    {
+        font-size: 20px;
+        width: 520px;
+    }
+
+    img.main,
+    img.thi{
+        margin-left: 610PX;
+        width: 317px;
+    }
+    img.sec{
+        margin-left: 10%;
+        width: 317px;
+    }
+
+    
+    p.sec
+    {
+
+        margin-left: 20%;
+        font-size: 20px;
+        width: 520px;
+       
+    }
+    .two{
+        margin-left: 30%;
+    }
+
+}
+
 
 @media screen and (max-width:950px)
 {
